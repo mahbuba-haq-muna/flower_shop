@@ -17,7 +17,7 @@ a{
 .btn-primary{
     color: #FFF;
     border: 0;
-    border-radius: 8px;
+    border-radius: 5px;
     padding: 15px 20px;
     background-color: #E55473;
     font-size: 20px;
@@ -54,8 +54,8 @@ a{
 }
 .menu ul li a{
     text-decoration: none;
-    margin-left: 15px;
-    font-size: 20px;
+    margin-left: 25px;
+    font-size: 24px;
     color: #272727;
 }
 .menu ul li a:hover{
@@ -176,10 +176,29 @@ a{
 .insta-container{
     display: flex;
     justify-content: space-between;
-    gap: 25px;
-    padding-right: 150px;
+    gap: 20px;
 }
 .insta-container img{
-    width: 250px;
+    width: 240px;
 }
 /* insta section end */
+
+/* subscription part start */
+.deal{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 70px;
+    background-image: url(../img/Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.deal form input[type="email"]{
+    padding: 15px 300px 15px 20px;
+    border-radius: 5px;
+    margin-left: 150px;
+}
+.deal form{
+    margin-top: 30px;
+}
+/* subscription part end */
