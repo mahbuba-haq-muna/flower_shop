@@ -22,6 +22,7 @@ a{
     background-color: #E55473;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 }
 .section-title{
     color: #272727;
@@ -141,5 +142,24 @@ a{
     padding-top: 22px;
     padding-left: 35px;
 }
-
 /* featured section end */
+
+/* sale section start */
+.sale-container{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 80px 150px;
+    margin-top: 80px;
+}
+.sale-content{
+    width: 550px;
+}
+.sale-content h1 span{
+    color: #E55473;
+}
+.sale-content button{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+/* sale section end */
